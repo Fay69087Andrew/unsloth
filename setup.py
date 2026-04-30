@@ -56,6 +56,8 @@ setup(
             "black>=23.0.0",
             "isort>=5.12.0",
             "flake8>=6.0.0",
+            # mypy is handy for catching type errors during local development
+            "mypy>=1.0.0",
         ],
         "training": [
             "trl>=0.7.9",
